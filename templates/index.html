@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot com Comando de Voz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Chatbot com Comando de Voz</h1>
+    <form method="POST" action="/voice_input">
+        <label for="user_input">Você pode digitar ou falar:</label>
+        <div class="input_container">
+            <input type="text" id="user_input" name="user_input" placeholder="Digite aqui...">
+            <button type="button" id="voice_button">Falar</button>
+        </div>
+    </form>
+    <div class="response_container">
+        {% if text %}
+            <p>Você disse: {{ text }}</p>
+        {% endif %}
+        {% if response %}
+            <p>O chatbot respondeu: {{ response }}</p>
+        {% endif %}
+    </div>
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+</html>
