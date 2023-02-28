@@ -16,7 +16,11 @@
 
 # Descrição-do-projeto
 
-O projeto busca utilizar técnicas de processamento de linguagem natural (NLP) para ajudar a melhorar a precisão e relevância das respostas geradas pelo chatbot. Existem diversas bibliotecas de NLP em Python que podem ser usadas para implementar essas técnicas. Algumas das bibliotecas mais populares incluem:
+O ojetivo principal do projeto é realizar uma aplicação web com Flask.
+
+O objetivo secundário está relacionado a utilização de  técnicas de processamento de linguagem natural (NLP) para ajudar a melhorar a precisão e relevância das respostas geradas pelo chatbot.
+
+O projeto não teve como objetivo explorar técnicas de processamento de linguagem natural (NLP), porém existem diversas bibliotecas de NLP em Python que podem ser usadas para implementar essas técnicas. Algumas das bibliotecas mais populares incluem:
 
 *	spaCy: Biblioteca de NLP para Python que oferece recursos avançados, como análise sintática, reconhecimento de entidades nomeadas e vetores de palavras pré-treinados.
 *	NLTK: a biblioteca de processamento de linguagem natural mais conhecida em Python, com recursos para tokenização, análise de sintaxe, classificação de texto e muito mais.
@@ -24,7 +28,6 @@ O projeto busca utilizar técnicas de processamento de linguagem natural (NLP) p
 *	gensim: uma biblioteca de NLP para modelagem de tópicos e análise de semântica latente.
 Para usar essas bibliotecas com o seu chatbot, você precisará treinar o modelo com dados de treinamento relevantes para o tipo de perguntas e respostas que você deseja que o chatbot entenda e responda. Você também pode usar modelos pré-treinados disponíveis na web para alguns casos de uso comuns, como reconhecimento de entidades nomeadas e análise de sentimento.
 
-Em seguida, você pode integrar a biblioteca de NLP escolhida em seu chatbot, de modo que ele possa compreender as perguntas do usuário e gerar respostas mais precisas e relevantes. Por exemplo, você pode usar a biblioteca spaCy para analisar a entrada de texto do usuário e identificar entidades nomeadas relevantes, como locais, pessoas ou empresas. Com base nessas entidades, o chatbot pode gerar respostas mais precisas e personalizadas.
 
 # Tecnologias utilizadas
 * Python | Flask | speech_recognitio | pyttsx3 |
