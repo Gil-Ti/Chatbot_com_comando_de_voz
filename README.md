@@ -20,14 +20,13 @@ O ojetivo principal do projeto é realizar uma aplicação web com Flask.
 
 O objetivo secundário está relacionado a utilização de  técnicas de processamento de linguagem natural (NLP) para ajudar a melhorar a precisão e relevância das respostas geradas pelo chatbot.
 
-O projeto não teve como objetivo explorar técnicas de processamento de linguagem natural (NLP), porém existem diversas bibliotecas de NLP em Python que podem ser usadas para implementar essas técnicas. Algumas das bibliotecas mais populares incluem:
+Existem diversas bibliotecas de NLP em Python que podem ser usadas para implementar essas técnicas. Algumas das bibliotecas mais populares incluem:
 
 *	spaCy: Biblioteca de NLP para Python que oferece recursos avançados, como análise sintática, reconhecimento de entidades nomeadas e vetores de palavras pré-treinados.
 *	NLTK: a biblioteca de processamento de linguagem natural mais conhecida em Python, com recursos para tokenização, análise de sintaxe, classificação de texto e muito mais.
 *	TextBlob: uma biblioteca de NLP fácil de usar que oferece recursos para processamento de texto, análise de sentimento, classificação de texto e muito mais.
 *	gensim: uma biblioteca de NLP para modelagem de tópicos e análise de semântica latente.
-Para usar essas bibliotecas com o seu chatbot, você precisará treinar o modelo com dados de treinamento relevantes para o tipo de perguntas e respostas que você deseja que o chatbot entenda e responda. Você também pode usar modelos pré-treinados disponíveis na web para alguns casos de uso comuns, como reconhecimento de entidades nomeadas e análise de sentimento.
-
+Para usar essas bibliotecas com o seu chatbot, você precisará treinar o modelo com dados de treinamento relevantes para o tipo de perguntas e respostas que você deseja que o chatbot entenda e responda.
 
 # Tecnologias utilizadas
 * Python | Flask | speech_recognitio | pyttsx3 |
